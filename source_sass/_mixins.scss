@@ -1,0 +1,20 @@
+@mixin transfer {
+  0%   {background-color: red;}
+  20%  {background-color: yellow;}
+  40% {background-color: orange;}
+  60%  {background-color: blue;}
+  80% {background-color: green;}
+}
+
+@mixin transition($second) {
+  -webkit-transition: all $second s;
+  -moz-transition: all $second s;
+  -ms-transition: all $second s;
+  -o-transition: all $second s;
+  transition: all $second s;
+}
+@mixin setbackground($url) {
+  background-image: url($url);
+  background-attachment: fixed; /* a fixed background image */
+  background-size: cover;
+}
