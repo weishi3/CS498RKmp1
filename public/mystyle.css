@@ -1,0 +1,222 @@
+
+
+/* ALREADY TRANSFER TO FILES IN SOURCE_SASS*/
+
+/*
+@import url('http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather');
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    text-align:center;
+}
+
+section {
+    width: 100%;
+    min-height: 80vh;
+    background: #335555;
+}
+
+section > .content {
+    padding: 10%;
+}
+
+video {
+    width: 100%;
+}
+
+
+
+#slider {
+
+    width: 80%;
+    padding: 0;
+    margin: 15%;
+    top: 50%;
+    position: relative;
+}
+
+#slider>div {
+    padding-top: 10cm;
+    position: absolute;
+    width: 80%;
+    top: 80%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#slider_left, #slider_right {
+
+    display: block;
+    position: absolute;
+    width: 72px;
+    height: 74px;
+    cursor: pointer;
+}
+
+#slider_left {
+
+    left: 1%;
+    top: 250%;
+    background: url('../public/media/arrow_left.jpeg');
+}
+
+#slider_right {
+
+    right: 1%;
+    top: 250%;
+    background: url('../public/media/arrow_right.jpeg');
+}
+
+
+
+nav {
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+    background: #808080;
+    color: #E3DAC9;
+    border-top: 0;
+    border-bottom: 2px ridge #808080;
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+
+nav>ul {
+    margin: 0;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    text-align: right;
+    list-style: none;
+}
+
+
+
+nav>ul>li {
+    background: #6D6D8D;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    height: 40px;
+
+    line-height: 40px;
+}
+
+nav>ul>li>a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav>ul>li>a.active {
+
+    background: #000000;
+}
+
+nav.stick {
+    height: 30px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+nav.stick>ul {
+    top: 0px;
+}
+
+nav.stick>ul>li {
+    margin-top: 0;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+
+#description {
+    background-image: url('../public/media/goodscene1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+#author {
+    background-image: url('../public/media/goodscene2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+#tribes {
+    background-image: url('../public/media/goodscene4.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+*/
